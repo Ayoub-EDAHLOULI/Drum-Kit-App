@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../drums.webp") center center/cover;
+}
+.container .keys {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: center;
+  min-height: 100vh;
+}
+.container .keys .key {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 0.4rem solid #FD1F4D;
+  border-radius: 5px;
+  margin: 16px;
+  font-size: 1.5rem;
+  padding: 1rem 0.5rem;
+  transition: all 0.07s ease;
+  width: 10rem;
+  text-align: center;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.4);
+  text-shadow: 0 0 0.5rem #000;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+.container .keys .key kbd {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  color: #ffc600;
+}
+.container .keys .playing {
+  transform: scale(1.1);
+  border-radius: #ffc600;
+  box-shadow: 0 0 1rem #ffc600;
+}/*# sourceMappingURL=style.css.map */
